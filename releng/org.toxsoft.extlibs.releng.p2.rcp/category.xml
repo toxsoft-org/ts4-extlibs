@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <category-def name="org.toxsoft.extlibs.releng.category" label="org.toxsoft.extlibs.releng Category">
+      <description>
+         org.toxsoft.extlibs.releng Category
+      </description>
+   </category-def>
+   <bundle id="org.toxsoft.extlibs.jasperreports"/>
+
+   <!-- sources -->
+   <bundle id="org.toxsoft.extlibs.jasperreports.source"/>
+
+</site>

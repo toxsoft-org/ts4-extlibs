@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jeasy OPC libs as plugin
+Bundle-SymbolicName: org.toxsoft.extlibs.jeasyopc
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: jeasyopc.jar,
+ src.jar
+Bundle-Vendor: ToxSoft LLC
+Export-Package: javafish.clients.opc,
+ javafish.clients.opc.asynch,
+ javafish.clients.opc.browser,
+ javafish.clients.opc.component,
+ javafish.clients.opc.exception,
+ javafish.clients.opc.lang,
+ javafish.clients.opc.property,
+ javafish.clients.opc.variant
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Eclipse-BuddyPolicy: registered
+Eclipse-RegisterBuddy: org.apache.log4j
+Automatic-Module-Name: org.toxsoft.extlibs.jeasyopc
+

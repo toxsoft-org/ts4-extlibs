@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="commons-javaflow-1590792-patched-play-1.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="fonts/"/>
+	<classpathentry exported="true" kind="lib" path="jasperreports-fonts-6.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="joda-time-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="com.lowagie.text-2.1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-beanutils-1.9.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-collections-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-digester-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="itext-pdfa-5.5.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="itext-xtra-5.5.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="itextpdf-5.5.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="jasperreports-6.3.0.jar" sourcepath="jasperreports-6.3.0-project.zip"/>
+	<classpathentry exported="true" kind="lib" path="jdt-compiler-3.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jxl.jar"/>
+	<classpathentry exported="true" kind="lib" path="poi-3.14-20160307.jar" sourcepath="C:/Users/mvk/.m2/repository/org/apache/poi/poi/3.14/poi-3.14-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="xmlworker-5.5.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="jcl-over-slf4j-1.7.7.jbossorg-1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slf4j-api-1.7.7.jbossorg-1.jar"/>
+	<classpathentry exported="true" kind="lib" path="slf4j-log4j12-1.7.21.jar"/>
+	<classpathentry exported="true" kind="lib" path="jasperreports-functions-6.3.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

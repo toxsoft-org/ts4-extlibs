@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sqlite JDBC driver
+Bundle-SymbolicName: org.toxsoft.extlibs.sqlite-jdbc
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: sqlite-jdbc-3.14.2.1.jar
+Bundle-Vendor: ToxSoft LLC
+Export-Package: org.sqlite,
+ org.sqlite.core,
+ org.sqlite.date,
+ org.sqlite.javax,
+ org.sqlite.jdbc3,
+ org.sqlite.jdbc4,
+ org.sqlite.util
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: org.toxsoft.extlibs.sqlite.jdbc

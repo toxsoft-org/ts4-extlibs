@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="bcprov-jdk15on-1.61.jar"/>
+	<classpathentry exported="true" kind="lib" path="netty-channel-fsm-0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="sdk-client-0.5.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="server-examples-0.5.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="slf4j-api-1.7.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="stack-client-0.5.4-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="strict-machine-0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

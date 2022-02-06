@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Serial(RXTXComm) libs as plugin
+Bundle-SymbolicName: org.toxsoft.extlibs.serial
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: RXTXcomm.jar
+Bundle-Vendor: ToxSoft LLC
+Export-Package: gnu.io
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Eclipse-BuddyPolicy: registered
+Eclipse-RegisterBuddy: org.apache.log4j
+Automatic-Module-Name: org.toxsoft.extlibs.serial
+

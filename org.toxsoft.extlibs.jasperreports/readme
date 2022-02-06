@@ -1,0 +1,26 @@
+
+JasperReports Library 6.3.0 Change Log
+=============================================
+
+- upgrade to Java 7; starting with this release, the binary distribution of the JR library
+is compiled for the Java 7 platform and is no longer guaranteed to be compatible with Java 6;
+
+- deprecation of DTD based validation for style template files (*.jrtx) and introduction of 
+XML schema based validation;
+
+- minor bug fixes and improvements;
+
+======================================
+update (set version 6.3.1):
+ replace  commons-javaflow.jar =>  commons-javaflow-1590792-patched-play-1.3.0.jar
+  (from http://grepcode.com/snapshot/repo1.maven.org/maven2/com.google.code.maven-play-plugin.org.apache.commons/commons-javaflow/1590792-patched-play-1.3.0/)
+cause:
+  client(mtapp) create report error: "... NoSuchMethodError: org.apache.commons.javaflow.Continuation.suspend()Ljava/lang/Object;  ..."
+
+client must set log4.xml:
+         <category name="org.apache.commons.javaflow">
+                <priority value="INFO" />
+        </category>
+
+
+2017-11-04 mvk   

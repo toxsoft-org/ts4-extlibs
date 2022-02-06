@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Modbus(jamod) libs as plugin
+Bundle-SymbolicName: org.toxsoft.extlibs.modbus
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: jamod.jar
+Bundle-Vendor: ToxSoft LLC
+Export-Package: gnu.io,
+ net.wimpi.modbus,
+ net.wimpi.modbus.cmd,
+ net.wimpi.modbus.facade,
+ net.wimpi.modbus.io,
+ net.wimpi.modbus.msg,
+ net.wimpi.modbus.net,
+ net.wimpi.modbus.procimg,
+ net.wimpi.modbus.util
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Eclipse-BuddyPolicy: registered
+Eclipse-RegisterBuddy: org.apache.log4j
+Automatic-Module-Name: org.toxsoft.extlibs.modbus
+
