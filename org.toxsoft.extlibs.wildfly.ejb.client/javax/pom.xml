@@ -29,7 +29,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>org.toxsoft.extlib.wildfly.ejb.client</artifactId>
+    <artifactId>org.toxsoft.extlibs.wildfly.ejb.client</artifactId>
     <name>JBoss EJB Client fork from Toxsoft</name>
     <description>Client library for EJB applications working against Wildfly</description>
     <packaging>jar</packaging>
