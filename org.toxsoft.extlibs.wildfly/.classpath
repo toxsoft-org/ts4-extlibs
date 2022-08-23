@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="infinispan-commons-12.1.7.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="infinispan-core-12.1.7.Final.jar"/>
 	<classpathentry exported="true" kind="lib" path="org.toxsoft.extlibs.wildfly.ejb.client-4.0.44.Final.jar"/>
 	<classpathentry exported="true" kind="lib" path="wildfly-elytron-mechanism-1.18.3.Final.jar"/>
 	<classpathentry exported="true" kind="lib" path="wildfly-elytron-util-1.18.3.Final.jar"/>
