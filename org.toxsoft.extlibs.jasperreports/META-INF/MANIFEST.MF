@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Jasperreports libs as plugin
 Bundle-SymbolicName: org.toxsoft.extlibs.jasperreports
-Bundle-Version: 1.0.1.qualifier
+Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: fonts/,
  com.lowagie.text-2.1.7.jar,
  jcl-over-slf4j-1.7.7.jbossorg-1.jar,
