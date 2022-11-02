@@ -14,7 +14,6 @@
 	<classpathentry exported="true" kind="lib" path="itext-xtra-5.5.9.jar"/>
 	<classpathentry exported="true" kind="lib" path="itextpdf-5.5.9.jar"/>
 	<classpathentry exported="true" kind="lib" path="jasperreports-6.3.0.jar" sourcepath="jasperreports-6.3.0-project.zip"/>
-	<classpathentry exported="true" kind="lib" path="jdt-compiler-3.1.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="jxl.jar"/>
 	<classpathentry exported="true" kind="lib" path="poi-3.14-20160307.jar" sourcepath="C:/Users/mvk/.m2/repository/org/apache/poi/poi/3.14/poi-3.14-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="xmlworker-5.5.9.jar"/>
