@@ -13,6 +13,7 @@
    <bundle id="org.toxsoft.extlibs.milo"/>
    <bundle id="org.toxsoft.extlibs.modbus"/>
    <bundle id="org.toxsoft.extlibs.opendocument"/>
+   <bundle id="org.toxsoft.extlibs.openscada"/> 
    <bundle id="org.toxsoft.extlibs.serial"/>
    <bundle id="org.toxsoft.extlibs.sqlite-jdbc"/>
    <bundle id="org.toxsoft.extlibs.wildfly"/>
@@ -21,7 +22,8 @@
    <!-- <bundle id="org.toxsoft.extlibs.apache.poi.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.jeasyopc.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.jfreechart.source"/>  нет исходников -->
-   <bundle id="org.toxsoft.extlibs.jline.source"/>
+   <bundle id="org.toxsoft.extlibs.jline.source"/> 
+   <!-- <bundle id="org.toxsoft.extlibs.openscada.source"/> нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.log4j.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.modbus.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.opendocument.source"/>  нет исходников -->

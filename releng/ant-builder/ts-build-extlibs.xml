@@ -25,6 +25,7 @@
     <ant dir="../../org.toxsoft.extlibs.milo" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.modbus" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.opendocument" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.openscada" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.serial" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.sqlite-jdbc" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.wildfly" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
