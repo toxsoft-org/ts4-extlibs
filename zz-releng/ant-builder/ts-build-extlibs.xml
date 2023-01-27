@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- extlibs библиотеки и плагины -->
+<project name="ts4-targets-extlibs MAIN" default="build">
+
+  <!-- директория расположения общих сборочных скриптов -->
+  <property name="ts-scripts-dir" location="../../../ts4-targets/ts4-definitions/scripts" />
+
+  <!-- загрузка общих параметров -->
+  <loadproperties srcFile="${ts-scripts-dir}/ts-build-commons.properties" />
+
+  <!-- перед вызовом общих скриптов сборки следует задать директории назначения библиотек и плагинов -->
+  <property name="ts-dest-dir-libs" location="../${ts.target-extlibs-lib}" />
+  <property name="ts-dest-dir-plugins" location="../${ts.target-extlibs-main}" />
+
+  <!-- ЦЕЛЬ: lib.jar библиотек -->
+  <target name="build-lib-jar" depends="clean" description="Сборка общих плагинов">
+    <ant dir="../../org.toxsoft.extlibs.apache.poi" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.apache.poi" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.jline" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.jasperreports" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.jeasyopc" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.jfreechart" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.log4j" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.milo" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.modbus" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.opendocument" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.openscada" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.serial" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.sqlite-jdbc" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.wildfly" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+  </target>
+
+  <!-- ЦЕЛЬ: сборка plugin-ов -->
+  <target name="build" depends="build-lib-jar" description="Сборка общих плагинов">
+    <!-- сборка plugin-ов -->
+    <pde.exportPlugins destination="${ts-dest-dir-plugins}"
+                       exportSource="true"
+                       exportSourceBundle="false"
+                       exportType="directory"
+                       plugins="org.toxsoft.extlibs.apache.poi,
+                                org.toxsoft.extlibs.jline,
+                                org.toxsoft.extlibs.jasperreports,
+                                org.toxsoft.extlibs.jeasyopc,
+                                org.toxsoft.extlibs.jfreechart,
+                                org.toxsoft.extlibs.log4j,
+                                org.toxsoft.extlibs.milo,
+                                org.toxsoft.extlibs.modbus,
+                                org.toxsoft.extlibs.opendocument,
+                                org.toxsoft.extlibs.serial,
+                                org.toxsoft.extlibs.sqlite-jdbc,
+                                org.toxsoft.extlibs.wildfly"
+                       useworkspacecompiledclasses="true"
+                       useJARFormat="true" />
+  </target>
+
+  <!-- ЦЕЛЬ: очистка -->
+  <target name="clean" description="Удаление старых версии">
+    <delete>
+      <fileset dir="${ts-dest-dir-libs}" includes="org.toxsoft.extlibs.*" />
+      <fileset dir="${ts-dest-dir-plugins}/plugins" includes="org.toxsoft.extlibs.*" />   
+    </delete>
+  </target>
+
+</project>
