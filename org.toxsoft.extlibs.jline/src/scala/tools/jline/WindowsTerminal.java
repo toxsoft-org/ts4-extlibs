@@ -81,7 +81,7 @@ public class WindowsTerminal
     setAnsiSupported( Boolean.getBoolean( ANSI ) );
 
     //
-    // FIXME: Need a way to disable direct console and sysin detection muck
+    // FIXME: Need a way to disable direct console and sysin detection muck.
     //
 
     setDirectConsole( Boolean.getBoolean( JLINE_WINDOWS_TERMINAL_DIRECT_CONSOLE ) );
@@ -164,13 +164,9 @@ public class WindowsTerminal
       throws IOException {
     assert in != null;
 
-    if( in == System.in ) {
+    if( (in == System.in) || (in instanceof FileInputStream && ((FileInputStream)in).getFD() == FileDescriptor.in) ) {
       return true;
     }
-    else
-      if( in instanceof FileInputStream && ((FileInputStream)in).getFD() == FileDescriptor.in ) {
-        return true;
-      }
 
     return false;
   }
@@ -185,11 +181,11 @@ public class WindowsTerminal
     // mvk
     // Если прочитан печатный символ (не управления), то логика обработки ascii-команд не требуется
     boolean isControlChar = (indicator == SPECIAL_KEY_INDICATOR.code || indicator == NUMPAD_KEY_INDICATOR.code);
-    if( isControlChar == true ) {
+    if( isControlChar ) {
       KEY_EVENT_RECORD keyEventRecord = WindowsSupport.readConsoleInput();
       isControlChar = (keyEventRecord.uchar == 0);
     }
-    if( isControlChar == true ) {
+    if( isControlChar ) {
       int c = readCharacter( in );
       WindowsKey key = WindowsKey.valueOf( c );
       if( key == null ) {
@@ -277,7 +273,8 @@ public class WindowsTerminal
    * <p/>
    * Constants copied <tt>wincon.h</tt>.
    */
-  public static enum ConsoleMode {
+  public enum ConsoleMode {
+
     /**
      * The ReadFile or ReadConsole function returns only when a carriage return character is read. If this mode is
      * disable, the functions return when one or more characters are available.
@@ -337,7 +334,8 @@ public class WindowsTerminal
    * <p/>
    * Constants copied <tt>wincon.h</tt>.
    */
-  public static enum WindowsKey {
+  public enum WindowsKey {
+
     /**
      * On windows terminals, this character indicates that a 'special' key has been pressed. This means that a key such
      * as an arrow key, or delete, or home, etc. will be indicated by the next character.
@@ -423,7 +421,7 @@ public class WindowsTerminal
     private static final Map<Integer, WindowsKey> codes;
 
     static {
-      Map<Integer, WindowsKey> map = new HashMap<Integer, WindowsKey>();
+      Map<Integer, WindowsKey> map = new HashMap<>();
 
       for( WindowsKey key : WindowsKey.values() ) {
         map.put( key.code, key );
