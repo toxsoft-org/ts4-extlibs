@@ -516,8 +516,9 @@
         <!-- TODO rcp-библиотеки -->
         <module>org.toxsoft.extlibs.jasperreports</module>
 
-        <module>zz-releng/org.toxsoft.extlibs.releng.p2.rcp</module>
-        <module>zz-releng/org.toxsoft.extlibs.releng.ant.rcp</module>
+        <module>zz-releng/p2.rcp</module>
+        <module>zz-releng/ant.rcp</module>
+
       </modules>
     </profile>
     <profile>
@@ -559,8 +560,8 @@
       <modules>                                           
         <!-- TODO rap-библиотеки -->
  
-        <module>zz-releng/org.toxsoft.extlibs.releng.p2.rap</module>
-        <module>zz-releng/org.toxsoft.extlibs.releng.ant.rap</module>
+        <module>zz-releng/p2.rap</module>
+        <module>zz-releng/ant.rap</module>
      </modules>
     </profile>
   </profiles>
@@ -578,8 +579,9 @@
     <module>org.toxsoft.extlibs.sqlite-jdbc</module>
     <module>org.toxsoft.extlibs.wildfly</module>
  
-    <module>zz-releng/org.toxsoft.extlibs.releng.p2</module>
-    <module>zz-releng/org.toxsoft.extlibs.releng.ant</module>
+    <module>zz-releng/p2.main</module>
+    <module>zz-releng/ant.main</module>
+
   </modules>
 
   <distributionManagement>
