@@ -10,6 +10,7 @@
   <loadproperties srcFile="${ts-scripts-dir}/ts-build-commons.properties" />
 
   <!-- директория собранных плагинов -->
+  <property name="ts-dest-dir-libs" location="../${ts.target-extlibs-lib}" />
   <property name="ts-dest-dir-plugins" location="../${ts.target-extlibs-rap}" />
 
   <!-- ЦЕЛЬ: lib.jar библиотек -->
@@ -21,14 +22,15 @@
   <!-- ЦЕЛЬ: сборка -->
   <target name="build" depends="clean" description="Сборка общих плагинов">
     <!-- сборка plugin-ов -->
-    <!-- TODO: -->
+    <!-- TODO: 
     <pde.exportPlugins destination="${ts-dest-dir-plugins}"
                        exportSource="true"
                        exportSourceBundle="false"
                        exportType="directory"
-                       plugins="org.toxsoft.extlibs.jasperreports_rap"
+                       plugins="org.toxsoft.extlibs.???"
                        useworkspacecompiledclasses="true"
                        useJARFormat="true" />
+    -->
   </target>
 
   <!-- ЦЕЛЬ: очистка -->

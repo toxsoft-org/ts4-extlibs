@@ -19,7 +19,6 @@
     <ant dir="../../org.toxsoft.extlibs.apache.poi" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.apache.poi" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.jline" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
-    <ant dir="../../org.toxsoft.extlibs.jasperreports" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.jeasyopc" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.jfreechart" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.log4j" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
@@ -42,7 +41,6 @@
                        exportType="directory"
                        plugins="org.toxsoft.extlibs.apache.poi,
                                 org.toxsoft.extlibs.jline,
-                                org.toxsoft.extlibs.jasperreports,
                                 org.toxsoft.extlibs.jeasyopc,
                                 org.toxsoft.extlibs.jfreechart,
                                 org.toxsoft.extlibs.log4j,
