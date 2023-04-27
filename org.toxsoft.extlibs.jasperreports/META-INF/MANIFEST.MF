@@ -32,8 +32,7 @@ Import-Package: org.eclipse.swt.widgets
 Require-Bundle: org.eclipse.equinox.registry;resolution:=optional,
  org.eclipse.ui;resolution:=optional,
  org.eclipse.rap.ui;resolution:=optional,
- org.toxsoft.extlibs.log4j,
- org.eclipse.jdt.core
+ org.toxsoft.extlibs.log4j
 Export-Package: com.itextpdf.awt,
  com.itextpdf.awt.geom,
  com.itextpdf.awt.geom.gl,
