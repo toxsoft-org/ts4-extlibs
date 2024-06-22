@@ -104,7 +104,7 @@ Export-Package: .,
  org.mozilla.javascript.xml,
  org.mozilla.javascript.xml.impl.xmlbeans,
  org.mozilla.javascript.xmlimpl
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-BuddyPolicy: registered
 Eclipse-RegisterBuddy: org.apache.log4j
 Automatic-Module-Name: org.toxsoft.extlibs.opendocument

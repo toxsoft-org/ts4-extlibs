@@ -4,7 +4,7 @@ Bundle-Name: Wildfly libs as plugin
 Bundle-SymbolicName: org.toxsoft.extlibs.wildfly
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: ToxSoft LLC
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-BuddyPolicy: registered
 Eclipse-RegisterBuddy: org.apache.log4j
 Automatic-Module-Name: org.toxsoft.extlibs.wildfly

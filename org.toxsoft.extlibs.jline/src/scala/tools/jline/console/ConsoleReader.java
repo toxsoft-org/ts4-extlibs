@@ -247,7 +247,7 @@ public class ConsoleReader {
     int last = str.lastIndexOf( "\n" );
 
     if( last >= 0 ) {
-      return str.substring( last + 1, str.length() );
+      return str.substring( last + 1 );
     }
 
     return str;
@@ -1233,10 +1233,10 @@ public class ConsoleReader {
         beforeReadLine( prompt, mask );
       }
 
-      if( prompt != null && prompt.length() > 0 ) {
-        out.write( prompt );
-        out.flush();
-      }
+       if( prompt != null && prompt.length() > 0 ) {
+       out.write( prompt );
+       out.flush();
+       }
       if( aBufferString != null ) {
         setBuffer( aBufferString );
         drawBuffer( aBufferString.length() );
@@ -1677,13 +1677,9 @@ public class ConsoleReader {
    */
   private boolean moveHistory( final boolean next )
       throws IOException {
-    if( next && !history.next() ) {
+    if( (next && !history.next()) || (!next && !history.previous()) ) {
       return false;
     }
-    else
-      if( !next && !history.previous() ) {
-        return false;
-      }
 
     setBuffer( history.current() );
 
@@ -2067,10 +2063,7 @@ public class ConsoleReader {
               out.flush();
               sleep( 3 );
             }
-            catch( IOException e ) {
-              return;
-            }
-            catch( InterruptedException e ) {
+            catch( IOException | InterruptedException e ) {
               return;
             }
           }
@@ -2210,7 +2203,7 @@ public class ConsoleReader {
       try {
         printAnsiSequence( "6n" );
         flush();
-        StringBuffer b = new StringBuffer( 8 );
+        StringBuilder b = new StringBuilder( 8 );
         // position is sent as <ESC>[{ROW};{COLUMN}R
         int r;
         while( (r = in.read()) > -1 && r != 'R' ) {
@@ -2238,7 +2231,7 @@ public class ConsoleReader {
       try {
         printAnsiSequence( "6n" );
         flush();
-        StringBuffer b = new StringBuffer( 8 );
+        StringBuilder b = new StringBuilder( 8 );
         // position is sent as <ESC>[{ROW};{COLUMN}R
         int r;
         while( (r = in.read()) > -1 && r != 'R' ) {

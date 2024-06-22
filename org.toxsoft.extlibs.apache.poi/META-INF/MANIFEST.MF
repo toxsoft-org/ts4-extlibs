@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: apache poi libs as plugin
 Bundle-SymbolicName: org.toxsoft.extlibs.apache.poi
 Bundle-Version: 1.0.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Bundle-ClassPath: poi-3.14-20160307.jar,
  poi-examples-3.14-20160307.jar,
  poi-excelant-3.14-20160307.jar,

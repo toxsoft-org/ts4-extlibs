@@ -14,7 +14,7 @@ Export-Package: gnu.io,
  net.wimpi.modbus.net,
  net.wimpi.modbus.procimg,
  net.wimpi.modbus.util
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-BuddyPolicy: registered
 Eclipse-RegisterBuddy: org.apache.log4j
 Automatic-Module-Name: org.toxsoft.extlibs.modbus

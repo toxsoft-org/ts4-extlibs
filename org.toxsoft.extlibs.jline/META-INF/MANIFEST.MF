@@ -4,7 +4,7 @@ Bundle-Name: jline libs as plugin
 Bundle-SymbolicName: org.toxsoft.extlibs.jline
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: ToxSoft Ltd.
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Export-Package: org.fusesource.hawtjni.runtime,
  org.fusesource.jansi,
  org.fusesource.jansi.internal,

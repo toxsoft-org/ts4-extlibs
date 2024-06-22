@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: RXTXcomm.jar
 Bundle-Vendor: ToxSoft LLC
 Export-Package: gnu.io
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-BuddyPolicy: registered
 Eclipse-RegisterBuddy: org.apache.log4j
 Automatic-Module-Name: org.toxsoft.extlibs.serial

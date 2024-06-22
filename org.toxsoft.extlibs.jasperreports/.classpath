@@ -21,7 +21,7 @@
 	<classpathentry exported="true" kind="lib" path="slf4j-api-1.7.7.jbossorg-1.jar"/>
 	<classpathentry exported="true" kind="lib" path="slf4j-log4j12-1.7.21.jar"/>
 	<classpathentry exported="true" kind="lib" path="jasperreports-functions-6.3.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

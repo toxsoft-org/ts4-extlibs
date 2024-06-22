@@ -67,7 +67,7 @@ Export-Package: com.keypoint,
  org.jfree.ui.tabbedui,
  org.jfree.util,
  org.jfree.xml.generator
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-BuddyPolicy: registered
 Eclipse-RegisterBuddy: org.apache.log4j
 Require-Bundle: org.eclipse.swt;resolution:=optional

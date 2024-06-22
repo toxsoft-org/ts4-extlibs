@@ -12,5 +12,5 @@ Export-Package: org.sqlite,
  org.sqlite.jdbc3,
  org.sqlite.jdbc4,
  org.sqlite.util
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Automatic-Module-Name: org.toxsoft.extlibs.sqlite.jdbc

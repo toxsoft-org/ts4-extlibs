@@ -14,7 +14,7 @@ Export-Package: javafish.clients.opc,
  javafish.clients.opc.lang,
  javafish.clients.opc.property,
  javafish.clients.opc.variant
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-BuddyPolicy: registered
 Eclipse-RegisterBuddy: org.apache.log4j
 Automatic-Module-Name: org.toxsoft.extlibs.jeasyopc
