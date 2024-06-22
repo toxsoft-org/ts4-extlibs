@@ -99,7 +99,7 @@ public class WindowsTerminal
   @Override
   public void restore()
       throws Exception {
-    // restore the old console mode
+    // restore the old console mode.
     setConsoleMode( originalMode );
     super.restore();
   }
