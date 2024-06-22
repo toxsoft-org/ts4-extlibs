@@ -38,7 +38,6 @@ import scala.tools.jline.internal.*;
  * which are otherwise inaccessible via the {@link System#in} stream. Using JNI reading can be bypassed by setting the
  * <code>jline.WindowsTerminal.directConsole</code> system property to <code>false</code>.
  * </p>
- * </p>
  *
  * @author <a href="mailto:mwp1@cornell.edu">Marc Prud'hommeaux</a>
  * @author <a href="mailto:jason@planet57.com">Jason Dillon</a>
@@ -99,7 +98,7 @@ public class WindowsTerminal
   @Override
   public void restore()
       throws Exception {
-    // restore the old console mode.
+    // restore the old console mode
     setConsoleMode( originalMode );
     super.restore();
   }
@@ -192,20 +191,43 @@ public class WindowsTerminal
       if( key == null ) {
         return 0;
       }
-      return switch( key ) {
-        case UP_ARROW_KEY -> CTRL_P.code; // translate UP -> CTRL-P
-        case LEFT_ARROW_KEY -> CTRL_B.code; // translate LEFT -> CTRL-B
-        case RIGHT_ARROW_KEY -> CTRL_F.code; // translate RIGHT -> CTRL-F
-        case DOWN_ARROW_KEY -> CTRL_N.code; // translate DOWN -> CTRL-N
-        case DELETE_KEY -> CTRL_QM.code; // translate DELETE -> CTRL-?
-        case HOME_KEY -> CTRL_A.code;
-        case END_KEY -> CTRL_E.code;
-        case PAGE_UP_KEY -> CTRL_K.code;
-        case PAGE_DOWN_KEY -> CTRL_L.code;
-        case ESCAPE_KEY -> CTRL_OB.code; // translate CSI -> CTRL-[
-        case INSERT_KEY -> CTRL_C.code;
-        default -> 0;
-      };
+      switch( key ) {
+        case UP_ARROW_KEY:
+          return CTRL_P.code; // translate UP -> CTRL-P
+
+        case LEFT_ARROW_KEY:
+          return CTRL_B.code; // translate LEFT -> CTRL-B
+
+        case RIGHT_ARROW_KEY:
+          return CTRL_F.code; // translate RIGHT -> CTRL-F
+
+        case DOWN_ARROW_KEY:
+          return CTRL_N.code; // translate DOWN -> CTRL-N
+
+        case DELETE_KEY:
+          return CTRL_QM.code; // translate DELETE -> CTRL-?
+
+        case HOME_KEY:
+          return CTRL_A.code;
+
+        case END_KEY:
+          return CTRL_E.code;
+
+        case PAGE_UP_KEY:
+          return CTRL_K.code;
+
+        case PAGE_DOWN_KEY:
+          return CTRL_L.code;
+
+        case ESCAPE_KEY:
+          return CTRL_OB.code; // translate CSI -> CTRL-[
+
+        case INSERT_KEY:
+          return CTRL_C.code;
+
+        default:
+          return 0;
+      }
     }
     if( indicator > 128 ) {
       // handle unicode characters longer than 2 bytes,
