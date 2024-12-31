@@ -12,6 +12,7 @@
    <bundle id="org.toxsoft.extlibs.log4j"/>
    <bundle id="org.toxsoft.extlibs.milo"/>
    <bundle id="org.toxsoft.extlibs.modbus"/>
+   <bundle id="org.toxsoft.extlibs.nashorn"/>
    <bundle id="org.toxsoft.extlibs.opendocument"/>
    <bundle id="org.toxsoft.extlibs.openscada"/> 
    <bundle id="org.toxsoft.extlibs.serial"/>

@@ -573,6 +573,7 @@
     <module>org.toxsoft.extlibs.log4j</module>
     <module>org.toxsoft.extlibs.milo</module>
     <module>org.toxsoft.extlibs.modbus</module>
+    <module>org.toxsoft.extlibs.nashorn</module>
     <module>org.toxsoft.extlibs.opendocument</module>
     <module>org.toxsoft.extlibs.openscada</module>
     <module>org.toxsoft.extlibs.serial</module>

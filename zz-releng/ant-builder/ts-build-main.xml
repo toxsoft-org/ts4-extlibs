@@ -24,6 +24,7 @@
     <ant dir="../../org.toxsoft.extlibs.log4j" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.milo" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.modbus" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.nashorn" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.opendocument" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.openscada" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.serial" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
@@ -46,6 +47,7 @@
                                 org.toxsoft.extlibs.log4j,
                                 org.toxsoft.extlibs.milo,
                                 org.toxsoft.extlibs.modbus,
+                                org.toxsoft.extlibs.nashorn,
                                 org.toxsoft.extlibs.opendocument,
                                 org.toxsoft.extlibs.serial,
                                 org.toxsoft.extlibs.sqlite-jdbc,
