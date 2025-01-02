@@ -5,10 +5,17 @@ Bundle-SymbolicName: org.toxsoft.extlibs.nashorn
 Bundle-Version: 15.5.0
 Bundle-ClassPath: .,
  asm-9.7.1.jar,
- asm-util-9.7.1.jar
+ asm-util-9.7.1.jar,
+ asm-analysis-9.7.1.jar,
+ asm-commons-9.7.1.jar,
+ asm-tree-9.7.1.jar
 Bundle-Vendor: toxsoft.org
-Export-Package: org.objectweb.asm,
+Export-Package: .,
+ org.objectweb.asm,
+ org.objectweb.asm.commons,
  org.objectweb.asm.signature,
+ org.objectweb.asm.tree,
+ org.objectweb.asm.tree.analysis,
  org.objectweb.asm.util,
  org.openjdk.nashorn.api.linker,
  org.openjdk.nashorn.api.scripting,
