@@ -2,14 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Nashorn JavaScript Engine as an Eclipse plugin
 Bundle-SymbolicName: org.toxsoft.extlibs.nashorn
-Bundle-Version: 15.5.0
-Bundle-ClassPath: .,
- asm-9.7.1.jar,
- asm-util-9.7.1.jar,
- asm-analysis-9.7.1.jar,
- asm-commons-9.7.1.jar,
- asm-tree-9.7.1.jar
-Bundle-Vendor: toxsoft.org
+Bundle-Version: 15.6.0
 Export-Package: .,
  org.objectweb.asm,
  org.objectweb.asm.commons,
@@ -19,7 +12,6 @@ Export-Package: .,
  org.objectweb.asm.util,
  org.openjdk.nashorn.api.linker,
  org.openjdk.nashorn.api.scripting,
- org.openjdk.nashorn.api.scripting.resources,
  org.openjdk.nashorn.api.tree,
  org.openjdk.nashorn.internal,
  org.openjdk.nashorn.internal.codegen,
@@ -46,10 +38,14 @@ Export-Package: .,
  org.openjdk.nashorn.internal.runtime.regexp.joni.encoding,
  org.openjdk.nashorn.internal.runtime.regexp.joni.exception,
  org.openjdk.nashorn.internal.scripts,
- org.openjdk.nashorn.tools,
- org.openjdk.nashorn.tools.resources
-Require-Bundle: org.objectweb.asm,
- org.objectweb.asm.commons,
- org.objectweb.asm.util
+ org.openjdk.nashorn.tools
+Bundle-Vendor: ToxSoft Ltd.
 Bundle-RequiredExecutionEnvironment: JavaSE-21
+Bundle-ClassPath: .,
+ nashorn-core-15.6.jar,
+ asm-9.7.1.jar,
+ asm-analysis-9.7.1.jar,
+ asm-commons-9.7.1.jar,
+ asm-tree-9.7.1.jar,
+ asm-util-9.7.1.jar
 Automatic-Module-Name: org.toxsoft.extlibs.nashorn

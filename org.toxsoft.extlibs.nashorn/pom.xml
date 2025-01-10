@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>org.toxsoft.extlibs.nashorn</artifactId>
-    <version>15.5.0</version>
+    <version>15.6.0</version>
     <packaging>eclipse-plugin</packaging>
 
 </project>

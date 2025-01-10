@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="asm-9.7.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="asm-analysis-9.7.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="asm-commons-9.7.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="asm-tree-9.7.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="asm-util-9.7.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="asm-9.7.1.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21"/>
+	<classpathentry exported="true" kind="lib" path="nashorn-core-15.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
-	<classpathentry exported="true" kind="lib" path=""/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
