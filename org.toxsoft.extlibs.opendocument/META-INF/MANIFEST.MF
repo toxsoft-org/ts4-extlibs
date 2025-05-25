@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: jOpenDocument libs as plugin
 Bundle-SymbolicName: org.toxsoft.extlibs.opendocument
 Bundle-Version: 1.0.0.qualifier
-Bundle-ClassPath: jOpenDocument-1.5.jar
+Bundle-ClassPath: jOpenDocument-1.5-patched.jar
 Bundle-Vendor: ToxSoft LLC
 Export-Package: .,
  com.ibm.icu.impl,
