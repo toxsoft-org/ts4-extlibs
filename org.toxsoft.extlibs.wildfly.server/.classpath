@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="byte-buddy-1.17.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="jakarta.interceptor-api-2.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jboss-ejb3-ext-api-2.4.0.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="hibernate-core-6.6.40.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jakarta.enterprise.concurrent-api-3.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="infinispan-commons-16.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="infinispan-core-16.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="jakarta.annotation-api-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jakarta.persistence-api-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="wildfly-clustering-server-api-39.0.1.Final.jar" sourcepath="/home/tsdev/.m2/repository/org/wildfly/wildfly-clustering-server-api/39.0.1.Final/wildfly-clustering-server-api-39.0.1.Final-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="wildfly-clustering-server-api-9.0.2.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="wildfly-elytron-client-2.8.2.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="mariadb-java-client-3.5.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
