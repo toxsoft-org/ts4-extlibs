@@ -579,6 +579,7 @@
     <module>org.toxsoft.extlibs.serial</module>
     <module>org.toxsoft.extlibs.sqlite-jdbc</module>
     <module>org.toxsoft.extlibs.wildfly</module>
+    <module>org.toxsoft.extlibs.wildfly.server</module>
 
     <module>zz-releng/p2.main</module>
     <module>zz-releng/ant.main</module>

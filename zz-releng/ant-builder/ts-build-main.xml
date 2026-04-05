@@ -30,6 +30,7 @@
     <ant dir="../../org.toxsoft.extlibs.serial" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.sqlite-jdbc" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
     <ant dir="../../org.toxsoft.extlibs.wildfly" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.extlibs.wildfly.server" antfile="${ts-scripts-dir}/ts-build-extlib.xml" target="build-lib-jar" />
   </target>
 
   <!-- ЦЕЛЬ: сборка plugin-ов -->
@@ -51,7 +52,8 @@
                                 org.toxsoft.extlibs.opendocument,
                                 org.toxsoft.extlibs.serial,
                                 org.toxsoft.extlibs.sqlite-jdbc,
-                                org.toxsoft.extlibs.wildfly"
+                                org.toxsoft.extlibs.wildfly,
+                                org.toxsoft.extlibs.wildfly.server"
                        useworkspacecompiledclasses="true"
                        useJARFormat="true" />
   </target>
