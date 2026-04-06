@@ -18,6 +18,7 @@
    <bundle id="org.toxsoft.extlibs.serial"/>
    <bundle id="org.toxsoft.extlibs.sqlite-jdbc"/>
    <bundle id="org.toxsoft.extlibs.wildfly"/>
+   <bundle id="org.toxsoft.extlibs.wildfly.server"/>
 
    <!-- sources -->
    <!-- <bundle id="org.toxsoft.extlibs.apache.poi.source"/>  нет исходников -->
@@ -31,5 +32,6 @@
    <!-- <bundle id="org.toxsoft.extlibs.serial.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.sqlite-jdbc.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.wildfly.source"/>  нет исходников -->
+   <!-- <bundle id="org.toxsoft.extlibs.wildfly.server.source"/>  нет исходников -->
 
 </site>
