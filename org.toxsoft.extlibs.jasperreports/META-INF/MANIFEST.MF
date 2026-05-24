@@ -395,10 +395,6 @@ Export-Package: com.itextpdf.awt,
  org.joda.time.field,
  org.joda.time.format,
  org.joda.time.tz,
- org.slf4j,
- org.slf4j.helpers,
- org.slf4j.impl,
- org.slf4j.spi,
  org.toxsoft.singlesourcing.report,
  org.w3c.tools.codec
 Automatic-Module-Name: org.toxsoft.extlibs.jasperreports

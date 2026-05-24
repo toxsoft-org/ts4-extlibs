@@ -4,9 +4,12 @@ Bundle-Name: log4j libs as plugin
 Bundle-SymbolicName: org.toxsoft.extlibs.log4j
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: log4j-api-2.3.2.jar,
- log4j-core-2.3.2.jar
+ log4j-core-2.3.2.jar,
+ log4j-slf4j-impl-2.3.2.jar,
+ slf4j-api-2.0.17.jar
 Bundle-Vendor: ToxSoft LLC
-Export-Package: org.apache.logging.log4j,
+Export-Package: .,
+ org.apache.logging.log4j,
  org.apache.logging.log4j.core,
  org.apache.logging.log4j.core.appender,
  org.apache.logging.log4j.core.appender.db,
@@ -51,7 +54,13 @@ Export-Package: org.apache.logging.log4j,
  org.apache.logging.log4j.simple,
  org.apache.logging.log4j.spi,
  org.apache.logging.log4j.status,
- org.apache.logging.log4j.util
+ org.apache.logging.log4j.util,
+ org.apache.logging.slf4j,
+ org.slf4j,
+ org.slf4j.event,
+ org.slf4j.helpers,
+ org.slf4j.impl,
+ org.slf4j.spi
 Bundle-RequiredExecutionEnvironment: JavaSE-21
 Eclipse-BuddyPolicy: registered
 Automatic-Module-Name: org.toxsoft.extlibs.log4j

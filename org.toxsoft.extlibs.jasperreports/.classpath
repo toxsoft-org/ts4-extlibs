@@ -17,9 +17,6 @@
 	<classpathentry exported="true" kind="lib" path="jxl.jar"/>
 	<classpathentry exported="true" kind="lib" path="poi-3.14-20160307.jar" sourcepath="C:/Users/mvk/.m2/repository/org/apache/poi/poi/3.14/poi-3.14-sources.jar"/>
 	<classpathentry exported="true" kind="lib" path="xmlworker-5.5.9.jar"/>
-	<classpathentry exported="true" kind="lib" path="jcl-over-slf4j-1.7.7.jbossorg-1.jar"/>
-	<classpathentry exported="true" kind="lib" path="slf4j-api-1.7.7.jbossorg-1.jar"/>
-	<classpathentry exported="true" kind="lib" path="slf4j-log4j12-1.7.21.jar"/>
 	<classpathentry exported="true" kind="lib" path="jasperreports-functions-6.3.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
