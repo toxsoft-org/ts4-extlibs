@@ -15,7 +15,6 @@
    <bundle id="org.toxsoft.extlibs.modbus"/>
    <bundle id="org.toxsoft.extlibs.nashorn"/>
    <bundle id="org.toxsoft.extlibs.opendocument"/>
-   <bundle id="org.toxsoft.extlibs.jasperreports"/>
    <bundle id="org.toxsoft.extlibs.openscada"/> 
    <bundle id="org.toxsoft.extlibs.serial"/>
    <bundle id="org.toxsoft.extlibs.sqlite-jdbc"/>
