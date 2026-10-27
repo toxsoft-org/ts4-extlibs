@@ -570,6 +570,7 @@
     <module>org.toxsoft.extlibs.jeasyopc</module>
     <module>org.toxsoft.extlibs.jfreechart</module>
     <module>org.toxsoft.extlibs.jline</module>
+    <module>org.toxsoft.extlibs.moka7</module>
     <module>org.toxsoft.extlibs.log4j</module>
     <module>org.toxsoft.extlibs.milo</module>
     <module>org.toxsoft.extlibs.modbus</module>

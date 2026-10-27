@@ -9,6 +9,7 @@
    <bundle id="org.toxsoft.extlibs.jeasyopc"/>
    <bundle id="org.toxsoft.extlibs.jfreechart"/>
    <bundle id="org.toxsoft.extlibs.jline"/>
+   <bundle id="org.toxsoft.extlibs.moka7"/>
    <bundle id="org.toxsoft.extlibs.log4j"/>
    <bundle id="org.toxsoft.extlibs.milo"/>
    <bundle id="org.toxsoft.extlibs.modbus"/>
@@ -25,6 +26,7 @@
    <!-- <bundle id="org.toxsoft.extlibs.jeasyopc.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.jfreechart.source"/>  нет исходников -->
    <bundle id="org.toxsoft.extlibs.jline.source"/> 
+   <bundle id="org.toxsoft.extlibs.moka7.source"/> 
    <!-- <bundle id="org.toxsoft.extlibs.openscada.source"/> нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.log4j.source"/>  нет исходников -->
    <!-- <bundle id="org.toxsoft.extlibs.modbus.source"/>  нет исходников -->

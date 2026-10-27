@@ -5,10 +5,12 @@
          org.toxsoft.extlibs.releng Category
       </description>
    </category-def>
-   
+
    <bundle id="org.toxsoft.extlibs.jasperreports"/> 
+   <bundle id="org.toxsoft.extlibs.jasperreports-6.3.0"/> 
 
    <!-- sources -->
    <bundle id="org.toxsoft.extlibs.jasperreports.source"/>
+   <bundle id="org.toxsoft.extlibs.jasperreports-6.3.0.source"/>
 
 </site>
