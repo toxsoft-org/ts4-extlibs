@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: moka7 - Step7 Open Source Ethernet Communication Suite 
+Bundle-Name: moka7 - Step7 Open Source Ethernet Communication Suite.
 Bundle-SymbolicName: org.toxsoft.extlibs.moka7
 Bundle-Version: 1.0.0.qualifier
 Export-Package: Moka7,
