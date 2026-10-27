@@ -576,6 +576,7 @@
     <module>org.toxsoft.extlibs.modbus</module>
     <module>org.toxsoft.extlibs.nashorn</module>
     <module>org.toxsoft.extlibs.opendocument</module>
+    <module>org.toxsoft.extlibs.jasperreports</module>
     <module>org.toxsoft.extlibs.openscada</module>
     <module>org.toxsoft.extlibs.serial</module>
     <module>org.toxsoft.extlibs.sqlite-jdbc</module>
